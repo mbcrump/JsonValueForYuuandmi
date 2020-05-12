@@ -9,6 +9,8 @@ namespace UpdateJsonValueForYuuandmi
     {
         static void Main(string[] args)
         {
+            
+            string key = "ASDFSADFASDFASDFASDFASDFASDF";
             Products products = new Products { Color = "Purple", Fruit = "Onions", Size = "" };
 
             // serialize JSON to a string and then write string to a file
